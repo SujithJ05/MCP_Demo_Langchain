@@ -1,0 +1,16 @@
+[project]
+name = "mcpdemolangchain"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=1.5.2",
+    "langchain-groq>=1.2.1",
+    "langchain-mcp-adapters>=0.3.2",
+    "langgraph>=1.2.23",
+    "mcp>=1.30.0",
+    "psycopg2-binary>=2.9.13",
+    "python-dotenv>=1.2.4",
+    "sqlalchemy>=2.1.9",
+]
